@@ -73,6 +73,9 @@ PRODUCT_PACKAGES += \
     init_connectivity.rc \
     ueventd.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6768.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
