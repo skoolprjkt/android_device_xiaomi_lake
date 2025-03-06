@@ -21,6 +21,9 @@ AB_OTA_PARTITIONS := \
     vbmeta_system \
     vbmeta_vendor
 
+# Assertation
+TARGET_OTA_ASSERT_DEVICE := lake
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
