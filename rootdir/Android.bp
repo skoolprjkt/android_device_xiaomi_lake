@@ -27,6 +27,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "fstab.mt6768",
+    src: "etc/fstab.mt6768",
+    vendor: true,
+    vendor_ramdisk_available: true
+}
+
+prebuilt_etc {
     name: "factory_init.project.rc",
     src: "etc/factory_init.project.rc",
     sub_dir: "init/hw",
@@ -170,6 +177,12 @@ prebuilt_etc {
     name: "multi_init.rc",
     src: "etc/multi_init.rc",
     sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.rc",
+    src: "etc/ueventd.rc",
     vendor: true,
 }
 
