@@ -6,6 +6,23 @@
 
 DEVICE_PATH := device/xiaomi/lake
 
+# A/B
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+
+AB_OTA_PARTITIONS := \
+    boot \
+    dtbo \
+    system \
+    system_ext \
+    product \
+    vendor \
+    vendor_boot \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
