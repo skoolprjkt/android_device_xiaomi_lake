@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lake.mk
+    $(LOCAL_DIR)/lineage_pond.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lake-user \
-    lineage_lake-userdebug \
-    lineage_lake-eng
+    lineage_pond-user \
+    lineage_pond-userdebug \
+    lineage_pond-eng

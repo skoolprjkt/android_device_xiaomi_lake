@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/lake
+DEVICE_PATH := device/xiaomi/pond
 
 # A/B
 AB_OTA_UPDATER := true
@@ -41,7 +41,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := lake
+TARGET_BOOTLOADER_BOARD_NAME := pond
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -82,8 +82,8 @@ BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD) $(BO
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := lake_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/lake
+TARGET_KERNEL_CONFIG := pond_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/pond
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -182,4 +182,4 @@ WIFI_DRIVER_STATE_OFF := 0
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit the proprietary files
-include vendor/xiaomi/lake/BoardConfigVendor.mk
+include vendor/xiaomi/pond/BoardConfigVendor.mk

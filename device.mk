@@ -144,9 +144,9 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayLake \
-    SystemUIOverlayLake \
-    WifiResOverlayLake
+    FrameworksResOverlayPond \
+    SystemUIOverlayPond \
+    WifiResOverlayPond
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -246,4 +246,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/lake/lake-vendor.mk)
+$(call inherit-product, vendor/xiaomi/pond/pond-vendor.mk)
