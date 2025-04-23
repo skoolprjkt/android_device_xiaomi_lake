@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResOverlayLake",
+    name: "WifiResOverlayPond",
     sdk_version: "current",
     resource_dirs: ["res"],
     vendor: true,
